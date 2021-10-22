@@ -1,9 +1,6 @@
-import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 public class FirstTestCase {
-
-
 
     @Test
     @Tag("MyFirstTest")
@@ -11,11 +8,9 @@ public class FirstTestCase {
         System.out.println("FirstTest");
     }
 
-
     @Test
     @Tag("MySecondTestcase")
     public void secondTestCase(){
         System.out.println("SecondTest");
     }
-
 }
