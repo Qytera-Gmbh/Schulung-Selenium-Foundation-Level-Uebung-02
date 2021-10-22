@@ -11,15 +11,17 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+        <my.junit5.version>5.8.1</my.junit5.version>
     </properties>
          
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
+           <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.8.1</version>
+            <version>${my.junit5.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
+
 </project>
